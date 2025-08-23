@@ -1,0 +1,53 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Medication Reminder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container" id="app">
+    <h1>💊 Smart Medication Reminder</h1>
+
+    <!-- Authentication Section -->
+    <div id="auth-section">
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <div class="btn-group">
+        <button onclick="register()">Register</button>
+        <button onclick="login()">Login</button>
+      </div>
+    </div>
+
+    <!-- App Section -->
+    <div id="app-section" class="hidden">
+      <h2>Add Medicine</h2>
+      <input type="text" id="medName" placeholder="Medicine Name" />
+      <select id="mealType">
+        <option value="Before">Before Meal</option>
+        <option value="After">After Meal</option>
+      </select>
+      <input type="time" id="startTime" />
+      <input type="time" id="endTime" />
+      <input type="number" id="frequency" placeholder="Remind Every (min)" />
+      <select id="frequencyUnit">
+        <option value="Seconds">Seconds</option>
+        <option value="Minutes">Minutes</option>
+        <option value="Hours">Hours</option>
+      </select>
+      <button onclick="addMedicine()">Add Reminder</button>
+
+      <h2>Your Medications</h2>
+      <ul id="medList"></ul>
+
+      <button onclick="confirmSelected()">Confirm Selected</button>
+      <button onclick="deleteSelected()">Delete Selected</button>
+      <button onclick="logout()">Logout</button>
+      <button onclick="deleteAccount()" class="danger">Delete Account</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

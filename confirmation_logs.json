@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Paracetamol",
+    "confirmed_at": "2025-06-28 21:53",
+    "confirmed_by": "text",
+    "status": "taken"
+  },
+  {
+    "device_id": "3ac0003c-88ba-4ea9-a3a0-1774cc6b67fa",
+    "name": "paracetamol",
+    "confirmed_at": "2025-06-28 22:03",
+    "confirmed_by": "text",
+    "status": "taken"
+  },
+  {
+    "username": "Prasad",
+    "medicine": "paracetamol",
+    "confirmed_at": "2025-06-29 08:07",
+    "confirmed_by": "text",
+    "status": "taken"
+  },
+  {
+    "username": "ramesh",
+    "medicine": "boletin",
+    "confirmed_at": "2025-06-29 08:35",
+    "confirmed_by": "text",
+    "status": "taken"
+  },
+  {
+    "username": "Prasad",
+    "medicine": "Paracetamol-d",
+    "confirmed_at": "2025-06-29 08:39",
+    "confirmed_by": "text",
+    "status": "taken"
+  },
+  {
+    "username": "Prasad",
+    "medicine": "Paracetamol-d",
+    "confirmed_at": "2025-06-29 08:40",
+    "confirmed_by": "text",
+    "status": "taken"
+  },
+  {
+    "username": "Prasad",
+    "medicine": "Paracetamol-d",
+    "confirmed_at": "2025-06-29 08:54",
+    "confirmed_by": "text",
+    "status": "taken"
+  },
+  {
+    "username": "Prasad",
+    "medicine": "paracetamol",
+    "confirmed_at": "2025-08-07 20:19",
+    "confirmed_by": "text",
+    "status": "taken"
+  },
+  {
+    "username": "chakri",
+    "medicine": "dolo",
+    "confirmed_at": "2025-08-07 20:23",
+    "confirmed_by": "text",
+    "status": "taken"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "boletin",
+    "meal": "After",
+    "start": "08:30",
+    "end": "09:30",
+    "confirmed": false,
+    "last_notified_time": null,
+    "freq_value": 5,
+    "freq_unit": "Seconds"
+  }
+]
